@@ -34,12 +34,10 @@ img {
   height: auto;
 }
 
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
+body {
+  font-family: 'Epilogue', sans-serif;
+  color: var(--white);
+  background-color: var(--black-bgc-text);
 }
 
 .no-scroll {
@@ -62,7 +60,12 @@ img {
 .section-title{
   font-weight: 600;
   font-size: 40px;
-  line-height: 44px;
+  line-height: 1.1;
   letter-spacing: -0.02em;
   color: var(--dark-green-bgc-title);
+}
+.container {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
