@@ -35,9 +35,9 @@ img {
 }
 
 body {
-  font-family: 'Epilogue', sans-serif;
-  color: var(--white);
-  background-color: var(--black-bgc-text);
+  font-family: "Epilogue", sans-serif;
+  color: var(--black-bgc-text);
+  background-color: var(--white);
 }
 
 .no-scroll {
