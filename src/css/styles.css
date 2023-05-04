@@ -7,6 +7,12 @@
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./catalog.css');
+@import url('./new-watches.css');
+@import url('./sale.css');
+@import url('./footer.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +28,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --dark-green-bgc-title: #1E2827;
+  --black-bgc-text: #141414;
+  --white: #FFFFFF;
+  --price-descr: rgba(20, 20, 20, 0.5);
 }
