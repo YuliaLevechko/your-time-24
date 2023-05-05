@@ -1,36 +1,3 @@
-@font-face {
-  font-family: "Epilogue";
-  src: local('Epilogue Light'),
-    local('Epilogue-Light'),
-  url(../fonts/Epilogue-Light.woff2) format("woff2"),
-  url(../fonts/Epilogue-Light.woff) format("woff"),
-  url(../fonts/Epilogue-Light.ttf) format("truetype");
-  font-weight: 300;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Epilogue";
-  src: local('Epilogue Regular'),
-    local('Epilogue-Regular'),
-    url(../fonts/Epilogue-Regular.woff2) format("woff2"),
-    url(../fonts/Epilogue-Regular.woff) format("woff"),
-    url(../fonts/Epilogue-Regular.ttf) format("truetype");
-  font-weight: 400;
-  font-display: swap;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Epilogue";
-  src: local('Epilogue SemiBold'),
-    local('Epilogue-SemiBold'),
-    url(../fonts/Epilogue-SemiBold.woff2) format("woff2"),
-    url(../fonts/Epilogue-SemiBold.woff) format("woff"),
-    url(../fonts/Epilogue-SemiBold.ttf) format("truetype");
-  font-weight: 600;
-  font-display: swap;
-  font-style: normal;
-}
 /**
   |============================
   | include css partials with
@@ -46,6 +13,42 @@
 @import url('./new-watches.css');
 @import url('./sale.css');
 @import url('./footer.css');
+
+@font-face {
+  font-family: "Epilogue";
+  src: local('Epilogue Light'),
+    local('Epilogue-Light'),
+    url(../fonts/Epilogue-Light.woff2) format("woff2"),
+    url(../fonts/Epilogue-Light.woff) format("woff"),
+    url(../fonts/Epilogue-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Epilogue";
+  src: local('Epilogue Regular'),
+    local('Epilogue-Regular'),
+    url(../fonts/Epilogue-Regular.woff2) format("woff2"),
+    url(../fonts/Epilogue-Regular.woff) format("woff"),
+    url(../fonts/Epilogue-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Epilogue";
+  src: local('Epilogue SemiBold'),
+    local('Epilogue-SemiBold'),
+    url(../fonts/Epilogue-SemiBold.woff2) format("woff2"),
+    url(../fonts/Epilogue-SemiBold.woff) format("woff"),
+    url(../fonts/Epilogue-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
 
 :root {
   --dark-green-bgc-title: #1E2827;
