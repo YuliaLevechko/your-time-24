@@ -1,0 +1,197 @@
+.sale .container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.sale-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+}
+
+.sale-section-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sale-section-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.sale-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sale-img-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sale-classy-s {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sale-classy-s-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sale-subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: calc(24 / 24);
+    color: var(--black-bgc-text);
+}
+
+.sale-text {  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    color: var(--price-descr);
+}
+
+.sale-prices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.sale-price {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    color: var(--black-bgc-text);
+}
+
+.sale-price-crossed {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    text-decoration-line: line-through;
+    color: var(--price-descr);
+}
+
+
+.sale-info {
+    border-top: 1px solid #141414;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.sale-info-1 {
+    border-top: 1px solid #141414;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sale-info-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    color: var(--black-bgc-text);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.sale-svg-minus {
+    fill: #141414;
+}
+
+.sale-info-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    letter-spacing: -0.01em;
+    color: var(--price-descr);
+}
+
+@media screen and (min-width: 768px) {
+    .sale .container {
+        width: 768px;
+        padding: 0 32px;
+    }
+
+    .sale-sections {
+        width: 768px;
+        padding: 0 66px;
+    }
+
+    .sale-img-list img {
+        width: 146px;
+    }
+
+    .sale-image-large img {
+        width: 406px;
+    }
+
+    .sale-classy-s {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .sale-subtitle {
+        font-size: 38px;
+        line-height: calc(40 / 38);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .sale .container {
+        width: 1440px;
+        padding: 0 132px;
+        gap: 80px;
+    }
+
+    .sale-sections {
+        width: 1440px;
+        padding: 0 98px;
+        flex-direction: row;
+    }
+
+    .sale-section-2 {
+        width: 368px;
+        gap: 40px;
+    }
+
+    .sale-section-3 {
+        gap: 20px;
+    }
+
+    .sale-img-list img {
+        width: 146px;
+    }
+
+    .sale-image-large img {
+        width: 406px;
+    }
+
+    .sale-subtitle {
+        font-size: 38px;
+        line-height: calc(40 / 38);
+    }
+
+}
