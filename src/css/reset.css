@@ -36,8 +36,6 @@ img {
 
 body {
   font-family: "Epilogue", sans-serif;
-  color: var(--black-bgc-text);
-  background-color: var(--white);
 }
 
 .no-scroll {
