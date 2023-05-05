@@ -1,0 +1,24 @@
+body {
+    background-color: #EFEFEF;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+
+.container {
+ width: 375px;
+ padding: 80px 0 20px 0 20px;
+}
+
+.catalog-title {
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #1E2827;
+    margin-bottom: 40px;
+}
