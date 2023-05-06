@@ -1,0 +1,152 @@
+.hero {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  max-width: 100%;
+  background-color: var(--black-bgc-text);
+  overflow: hidden;
+}
+
+.main-header {
+  margin-bottom: 60px;
+  font-size: 38px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  color: var(--white);
+
+}
+
+.swiper-wrapper {
+  margin-bottom: 20px;
+}
+
+.swiper {
+  max-width: 266px;
+  margin-bottom: 40px;
+}
+
+.swiper,
+.swiper-container {
+  margin-left: 0;
+}
+
+
+.swiper-buttons {
+  max-width: 266px;
+  display: flex;
+  gap: 12px;
+
+}
+
+.button-prev,
+.button-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.button-prev:hover,
+.button-next:hover {
+  border-color: var(--white);
+  color: var(--white);
+}
+
+.button-prev:focus,
+.button-next:focus {
+  border-color: var(--white);
+  color: var(--white);
+}
+
+.chevron-icon {
+  /* stroke: inherit; */
+  fill: currentColor;
+}
+
+.swap-numbers-wrap {
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+  gap: 44px;
+}
+
+.swap-numbers-wrap>.swipe-numbers:nth-last-child(2n):after {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 6px;
+  content: "";
+  width: 32px;
+  height: 1px;
+  background-color: var(--white);
+}
+
+.swipe-numbers {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+
+.hero-text-wrap {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  width: 248px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+
+@media screen and (min-width: 375px) {
+
+  .hero {
+    margin: 0 auto;
+    max-width: 375px;
+  }
+}
+
+
+  @media screen and (min-width: 768px) {
+
+    .hero {
+      margin: 0 auto;
+      max-width: 768px;
+    }
+
+    .main-header {
+      margin-bottom: 60px;
+      font-size: 60px;
+      line-height: 1.03;
+      letter-spacing: -0.04em;
+      color: var(--white);
+    }
+
+    .swiper {
+      max-width: 436px;
+
+    }
+
+    .swiper,
+    .swiper-container {
+      margin-right: 20px;
+    }
+
+    .swiper-text-wrap {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .swiper-buttons {
+      max-width: 436px;
+    }
+  }
