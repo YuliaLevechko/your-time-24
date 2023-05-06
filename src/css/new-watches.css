@@ -1,0 +1,15 @@
+.new-watches.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 80px;
+}
+
+.new-watches .section-title {
+    font-weight: 300;
+    font-size:12px;
+    line-height: 1.17;
+    letter-spacing: 0.06em;
+    color: rgba(20, 20, 20, 0.4);
+    margin-bottom: 8px;
+}
+
