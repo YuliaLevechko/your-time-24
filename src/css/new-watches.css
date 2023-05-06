@@ -1,4 +1,8 @@
 /* original setup for mobile 320px */
+:root {
+    --title-new-watches :  rgba(20, 20, 20, 0.4);
+}
+
 
 .new-watches {
     
@@ -19,7 +23,7 @@
     font-size:12px;
     line-height: 1.17;
     letter-spacing: 0.06em;
-    color: rgba(20, 20, 20, 0.4);
+    color: var(--title-new-watches);
     
     margin-bottom: 8px;
 }
