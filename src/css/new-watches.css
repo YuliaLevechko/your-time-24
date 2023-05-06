@@ -64,14 +64,38 @@
         max-width: 768px;
     }
 
-    .new-watches h2.section-title {
+}
 
+@media screen and (min-width: 768px) {
+
+    .new-watches h2.section-title {
         max-width: 448px;
-        margin-right: 256px;
     }
 
     .new-watches-imgs {
         flex-direction: row;
     }
+
 }
 
+
+/* Desktop breakpoint - 1280px */
+
+
+@media screen and (min-width: 1280px) {
+
+    .new-watches.container {
+        padding-left: 132px;
+        padding-right: 132px;
+        margin-bottom: 160px;
+        max-width: 1440px;
+    }
+
+    .new-watches h2.section-title {
+        margin-bottom: 80px;
+    }
+
+    .new-watches-imgs { 
+        gap: 24px;
+    }
+}
