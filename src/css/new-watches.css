@@ -1,9 +1,14 @@
 /* original setup for mobile 320px */
 
-.new-watches.container {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 80px;
+.new-watches {
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.new-watches .container {
+    
     margin-left: auto;
     margin-right: auto;
     max-width: 340px;
@@ -35,8 +40,11 @@
 
 @media screen and (min-width: 375px) and (max-width:767px) {
 
-    .new-watches.container {
+    .new-watches .container {
         max-width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+
     }
 
 }
@@ -57,10 +65,14 @@
 
 @media screen and (min-width: 768px) and (max-width:1279px) {
 
-    .new-watches.container {
+    .new-watches {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .new-watches .container {
         padding-left: 32px;
         padding-right: 32px;
-        margin-bottom: 128px;
         max-width: 768px;
     }
 
@@ -84,10 +96,15 @@
 
 @media screen and (min-width: 1280px) {
 
-    .new-watches.container {
+    .new-watches {
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+    }
+
+    .new-watches .container {
         padding-left: 132px;
         padding-right: 132px;
-        margin-bottom: 160px;
         max-width: 1440px;
     }
 
