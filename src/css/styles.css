@@ -54,4 +54,6 @@
   --black-bgc-text: #141414;
   --white: #FFFFFF;
   --price-descr: rgba(20, 20, 20, 0.5);
+  --lite-white-catalog-bgc: #efefef;
+  --catalog-info-watch-text: rgba(255, 255, 255, 0.5);
 }
