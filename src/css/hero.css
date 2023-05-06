@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  padding-top: 100px;
+  padding-top: 122px;
   padding-bottom: 40px;
   max-width: 100%;
   background-color: var(--black-bgc-text);
@@ -63,8 +63,7 @@
 }
 
 .chevron-icon {
-  /* stroke: inherit; */
-  fill: currentColor;
+  stroke: currentColor;
 }
 
 .swap-numbers-wrap {
@@ -118,6 +117,7 @@
   @media screen and (min-width: 768px) {
 
     .hero {
+      padding-top: 148px;
       margin: 0 auto;
       max-width: 768px;
     }
