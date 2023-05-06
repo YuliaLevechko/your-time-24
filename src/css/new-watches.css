@@ -4,6 +4,7 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 80px;
+    max-width: 340px;
 }
 
 .new-watches .section-title {
@@ -33,3 +34,14 @@
 .new-watches-item:not(:last-child) {
     margin-bottom: 20px;
 }
+
+/* mobile breakpoint - 375px */
+
+@media screen and (min-width: 375px) {
+
+    .new-watches.container {
+        max-width: 375px;
+    }
+
+}
+
