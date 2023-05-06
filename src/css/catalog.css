@@ -218,6 +218,7 @@ img {
     border: 1px solid var(--price-descr);
     border-radius: 8px;
     margin-bottom: 20px;
+    resize: none;
 }
 .model-form-button {
     border: 1px solid transparent;
