@@ -1,3 +1,5 @@
+/* original setup for mobile 320px */
+
 .new-watches.container {
     padding-left: 20px;
     padding-right: 20px;
@@ -10,6 +12,24 @@
     line-height: 1.17;
     letter-spacing: 0.06em;
     color: rgba(20, 20, 20, 0.4);
+    
     margin-bottom: 8px;
 }
 
+.new-watches h2 {
+    font-weight: 600;
+    font-size:32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em; 
+
+    margin-bottom: 40px;
+}
+
+.new-watches-imgs {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-watches-item:not(:last-child) {
+    margin-bottom: 20px;
+}
