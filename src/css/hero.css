@@ -20,6 +20,7 @@
 
 }
 
+
 .swiper-wrapper {
   margin-bottom: 20px;
 }
@@ -100,6 +101,10 @@
   margin-bottom: 40px;
 }
 
+.hero-text-wrap1 {
+  display: none;
+}
+
 .hero-text {
   width: 248px;
   font-weight: 300;
@@ -116,109 +121,108 @@
 
 @media screen and (min-width: 375px) {
 
-  .hero {
-    margin: 0 auto;
-    max-width: 375px;
-  }
+.hero {
+  margin: 0 auto;
+  max-width: 375px;
+}
+
 }
 
 
   @media screen and (min-width: 768px) {
 
-    .hero {
-      padding-top: 148px;
-      margin: 0 auto;
-      max-width: 768px;
-    }
+.hero {
+  padding-top: 148px;
+  margin: 0 auto;
+  max-width: 768px;
+}
 
-    .main-header {
-      margin-bottom: 60px;
-      font-size: 60px;
-      line-height: 1.03;
-      letter-spacing: -0.04em;
-      color: var(--white);
-    }
+.main-header {
+  margin-bottom: 60px;
+  font-size: 60px;
+  line-height: 1.03;
+  letter-spacing: -0.04em;
+  color: var(--white);
+}
 
-    .swiper {
-      max-width: 436px;
+.swiper {
+  max-width: 436px;
 
-    }
+}
 
-    .swiper,
-    .swiper-container {
-      margin-right: 20px;
-    }
+.swiper,
+.swiper-container {
+  margin-right: 20px;
+}
 
-    .swiper-text-wrap {
-      display: flex;
-      align-items: center;
-      margin-bottom: 40px;
-    }
+.swiper-text-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
 
-    .swiper-buttons {
-      max-width: 436px;
-    }
+.swiper-buttons {
+  max-width: 436px;
+}
 
-    .button-prev,
-    .button-next {
-      width: 40px;
-      height: 40px;
-    }
+.button-prev,
+.button-next {
+  width: 40px;
+  height: 40px;
+}
 
-    .chevron-icon {
-      width: 24px;
-      height: 24px;
-    }
-    
-    
-  }
+.chevron-icon {
+  width: 24px;
+  height: 24px;
+}
+}
 
-    @media screen and (min-width: 1158px) {
-      .hero {
-        max-width: 1440px;
-        display: flex;
-        justify-content: center;
-      }
+@media screen and (min-width: 1280px) {
+.hero {
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+}
 
-      .main-header-wrap {
-        display: flex;
-      }
+.main-header-wrap {
+  display: flex;
+}
 
-      .main-header {
-        width: 750px;
-        font-size: 60px;
-      }
+.main-header {
+  width: 750px;
+  font-size: 60px;
+}
 
-      .hero-text-wrap1{
-        margin-left: auto;
-        display: flex;
-        justify-content: end;
+.hero-text-wrap1{
+  margin-left: auto;
+  display: flex;
+  justify-content: end;
 
-      }
+}
 
-      .hero-text {
-        width: 282px;
-      }
-            
-      .hero-text-wrap {
-        display: none;
-      }
+.hero-text {
+  width: 282px;
+}
+      
+.hero-text-wrap {
+  display: none;
+}
 
-      .swiper {
-        margin-bottom: 0;
-      }
+.swiper {
+  margin-bottom: 0;
+}
 
-      .swiper-text-wrap {
-        margin-bottom: 0;
-      }
-            
-      .pic-text-wrap {
-        display: flex;
-        align-items: end;
-      }
+.swiper-text-wrap {
+  margin-bottom: 0;
+}
+      
+.pic-text-wrap {
+  display: flex;
+  align-items: end;
+}
 
-      .hero-pic-wrap {
-        margin-left: 64px;
-      }
+.hero-pic-wrap {
+  margin-left: 64px;
+}
 
-    }
+}
