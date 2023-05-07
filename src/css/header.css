@@ -140,6 +140,9 @@
 }
 
 .main-nav-link {
+  display: flex;
+  align-items: center;
+  height: 48px;
   font-size: 9px;
   line-height: 1.33px;
   text-transform: uppercase;
