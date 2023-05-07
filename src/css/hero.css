@@ -1,10 +1,14 @@
 .hero {
+
   position: relative;
   padding-top: 122px;
   padding-bottom: 40px;
   max-width: 100%;
   background-color: var(--black-bgc-text);
   overflow: hidden;
+}
+.hero-text-wrap1 {
+  display: none;
 }
 
 .main-header {
@@ -105,6 +109,11 @@
   color: var(--white);
 }
 
+.hero-picture {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 375px) {
 
   .hero {
@@ -149,4 +158,6 @@
     .swiper-buttons {
       max-width: 436px;
     }
+    
+    
   }
