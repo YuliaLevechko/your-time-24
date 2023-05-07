@@ -158,6 +158,67 @@
     .swiper-buttons {
       max-width: 436px;
     }
+
+    .button-prev,
+    .button-next {
+      width: 40px;
+      height: 40px;
+    }
+
+    .chevron-icon {
+      width: 24px;
+      height: 24px;
+    }
     
     
   }
+
+    @media screen and (min-width: 1158px) {
+      .hero {
+        max-width: 1440px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .main-header-wrap {
+        display: flex;
+      }
+
+      .main-header {
+        width: 750px;
+        font-size: 60px;
+      }
+
+      .hero-text-wrap1{
+        margin-left: auto;
+        display: flex;
+        justify-content: end;
+
+      }
+
+      .hero-text {
+        width: 282px;
+      }
+            
+      .hero-text-wrap {
+        display: none;
+      }
+
+      .swiper {
+        margin-bottom: 0;
+      }
+
+      .swiper-text-wrap {
+        margin-bottom: 0;
+      }
+            
+      .pic-text-wrap {
+        display: flex;
+        align-items: end;
+      }
+
+      .hero-pic-wrap {
+        margin-left: 64px;
+      }
+
+    }

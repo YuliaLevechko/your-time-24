@@ -166,12 +166,12 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    width: 1176px;
   }
 
   .top-header {
 
-    width: 1280px;
+    width: 1440px;
   }
 }
 /* .header {
