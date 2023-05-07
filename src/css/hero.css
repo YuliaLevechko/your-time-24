@@ -179,7 +179,7 @@
 
 @media screen and (min-width: 1280px) {
 .hero {
-  width: 1280px;
+  min-width: 1280px;
   display: flex;
   justify-content: center;
 }
