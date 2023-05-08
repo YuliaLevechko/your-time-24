@@ -12,13 +12,14 @@
   font-family: "Epilogue";
   src: local('Epilogue Light'),
     local('Epilogue-Light'),
-  url(../fonts/Epilogue-Light.woff2) format("woff2"),
-  url(../fonts/Epilogue-Light.woff) format("woff"),
-  url(../fonts/Epilogue-Light.ttf) format("truetype");
+    url(../fonts/Epilogue-Light.woff2) format("woff2"),
+    url(../fonts/Epilogue-Light.woff) format("woff"),
+    url(../fonts/Epilogue-Light.ttf) format("truetype");
   font-weight: 300;
   font-display: swap;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Epilogue";
   src: local('Epilogue Regular'),
@@ -30,6 +31,7 @@
   font-display: swap;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Epilogue";
   src: local('Epilogue SemiBold'),
@@ -41,17 +43,12 @@
   font-display: swap;
   font-style: normal;
 }
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-
 
 :root {
   --dark-green-bgc-title: #1E2827;
   --black-bgc-text: #141414;
   --white: #FFFFFF;
   --price-descr: rgba(20, 20, 20, 0.5);
+  --new-watches-top-text: rgba(20, 20, 20, 0.4);
+  --footer-bottom-text: rgba(198, 205, 209, 1);
 }

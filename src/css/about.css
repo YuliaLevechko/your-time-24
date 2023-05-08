@@ -1,0 +1,158 @@
+
+
+.about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+
+   }
+
+.mardgin{
+    margin-bottom: 20px;
+   }
+
+   .img-item{
+    margin-top: 40px;
+    width: 100%;
+   }
+   
+   .font-about{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: var(--dark-green-bgc-title);
+    margin-bottom: 40px;
+   }
+   
+   .font-about-text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--black-bgc-text);
+   }
+   
+
+
+@media screen and (min-width: 375px) {
+   .container{
+    width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+
+   .about-container{
+    margin: 0 auto;
+   }
+   
+   .font-about{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: var(--dark-green-bgc-title);
+    margin-bottom: 40px;
+   }
+   
+   .font-about-text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--black-bgc-text);
+   }
+
+   .mardgin{
+    margin-bottom: 20px;
+   }
+
+   .img-item{
+    margin-top: 40px;
+    width: 100%;
+   }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .container{
+        width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+       }
+.about {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin: 0 auto;
+}
+
+.font-about{
+margin-right: 40px;
+white-space: nowrap;
+font-size: 40px;
+}
+
+
+
+.about-text{
+    display: flex;
+    justify-content: center;
+}
+
+.img-item{
+    min-width: 704px;
+    max-height: 465px;
+   }
+
+.mardgin{
+    margin-right: 20px;
+    margin-bottom: 0px;
+   }
+
+
+}
+
+@media screen and (min-width: 1280px) {
+
+
+.container{
+    width: 1280px;
+    padding-left: 52px;
+    padding-right: 52px;
+    }
+
+.about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+   }
+   
+.font-about{
+    margin-right: 110px;
+    white-space: nowrap;
+    }
+
+.mardgin{
+    margin-right: 40px;
+    margin-bottom: 0px;
+    width: 439px;
+    }
+
+.img-item{
+    margin-top: 40px;
+    width: 892px;
+    max-height: 500px;
+    float: right;
+       }
+
+       .ff{
+        width: 380px;
+       }
+       .about-text{
+        display: flex;
+        justify-content: center;
+    }
+
+}
