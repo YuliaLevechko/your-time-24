@@ -1,8 +1,10 @@
 .hero {
+  display: flex;
+  justify-content: center;
   position: relative;
   padding-top: 122px;
   padding-bottom: 40px;
-  max-width: 100%;
+  max-width: 767px;
   background-color: var(--black-bgc-text);
   overflow: hidden;
 }
@@ -126,7 +128,6 @@
 }
 .hero {
   margin: 0 auto;
-  max-width: 375px;
 }
 }
 
@@ -143,7 +144,7 @@
   padding-top: 148px;
   padding-bottom: 64px;
   margin: 0 auto;
-  max-width: 768px;
+  max-width: 1279px;
 }
 
 .main-header {
@@ -196,18 +197,20 @@
 
   .hero {
   padding-bottom: 80px;
-  min-width: 1280px;
+  min-width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .main-header-wrap {
   display: flex;
+  margin-bottom: 60px;
 }
 
 .main-header {
   width: 750px;
   font-size: 60px;
+  margin-bottom: 0;
 }
 
 .hero-text-wrap1{
