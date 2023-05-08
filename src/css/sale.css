@@ -1,3 +1,8 @@
+.sale {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .sale .container {
     display: flex;
     align-items: flex-start;
@@ -132,6 +137,11 @@
 }
 
 @media screen and (min-width: 768px) {
+    .sale {
+        padding-top: 128px;
+        padding-bottom: 128px;
+    }
+
     .sale .container {
         width: 768px;
         padding: 0 32px;
@@ -163,11 +173,17 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
+    .sale {
+        padding-top: 80px;
+        padding-bottom: 160px;
+    }
+
     .sale .container {
         width: 1440px;
-        padding: 0 132px;
+        padding: 0 52px;
         gap: 80px;
+        margin: 0 auto;
     }
 
     .sale-sections {
