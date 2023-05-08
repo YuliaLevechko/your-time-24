@@ -1,4 +1,6 @@
-.wrap__ftr {
+.footer__cont .container {
+  padding: 0 20px 0 20px;
+
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -91,7 +93,6 @@ address {
 
 .list-soc-icons li a:is(:hover, :focus) {
   border-color: var(--footer-bottom-text);
-  fill: aqua;
 }
 
 /**------div-4------*/
@@ -110,23 +111,33 @@ address {
   margin-bottom: 14px;
 }
 
-@media screen and (max-width: 244px) {
+@media screen and (max-width: 254px) {
   .list-soc-icons li {
     margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 375px) {
-  .wrap__ftr {
+  .footer__cont .container {
+    padding: 0 20px 0 20px;
     max-width: 375px;
     margin: 0 auto;
   }
   .list-soc-icons {
     gap: 14px;
   }
+  .bottom-footer-text div {
+    display: flex;
+    gap: 14px;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .footer__cont .container {
+    padding: 0 32px 0 32px;
+    max-width: 768px;
+    margin: 0 auto;
+  }
   address {
     margin-bottom: 0;
   }
@@ -146,10 +157,13 @@ address {
     letter-spacing: -0.02em;
     color: var(--white);
   }
+  .wrap__two ul {
+    gap: 18px;
+  }
   .list-soc-icons {
     gap: 16px;
   }
-  .wrap__ftr {
+  .footer__cont .container {
     max-width: 704px;
     margin: 0 auto;
     justify-content: space-between;
@@ -161,7 +175,7 @@ address {
   .bottom-footer-text {
     display: flex;
     margin-top: 152px;
-    gap: 187px;
+    gap: 149px;
   }
   .bottom-footer-text li {
     font-size: 14px;
@@ -185,14 +199,16 @@ address {
   }
 }
 @media screen and (min-width: 1280px) {
-  .wrap__ftr {
+  .footer__cont .container {
     max-width: 1176px;
+    padding: 0 52px 0 52px;
+
     margin: 0 auto;
     flex-wrap: wrap;
   }
   .bottom-footer-text {
     display: flex;
-    gap: 659px;
+    gap: 558px;
   }
 
   .bottom-footer-text li:last-child {
