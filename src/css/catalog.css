@@ -269,7 +269,7 @@ stroke-opacity: 0.5;
 }
 
 @media screen and (min-width: 375px) {
-  .container {
+  .catalog .container {
     max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
@@ -284,7 +284,7 @@ stroke-opacity: 0.5;
 /* MEDIA-TABLE */
 
 @media screen and (min-width: 768px) {
-  .container {
+  .catalog .container {
     min-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
@@ -294,10 +294,13 @@ stroke-opacity: 0.5;
     padding-top: 64px;
     padding-bottom: 64px;
 }
+.catalog-title {
+  font-size: 40px;
+}
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .catalog .container {
     max-width: 768px;
   }
   .catalog-list {
@@ -380,7 +383,7 @@ stroke-opacity: 0.5;
     padding-bottom: 80px;
 }
 
-  .container {
+    .catalog .container {
     max-width: 1280px;
     padding-left: 52px;
     padding-right: 52px;
