@@ -16,6 +16,7 @@
     margin-top: 40px;
     width: 100%;
    }
+   
    .font-about{
     font-weight: 600;
     font-size: 32px;
@@ -23,6 +24,14 @@
     letter-spacing: -0.02em;
     color: var(--dark-green-bgc-title);
     margin-bottom: 40px;
+   }
+   
+   .font-about-text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--black-bgc-text);
    }
    
 
