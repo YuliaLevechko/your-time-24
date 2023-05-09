@@ -1,6 +1,4 @@
 .footer__cont .container {
-  padding: 0 20px 0 20px;
-
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -11,7 +9,12 @@
   padding-bottom: 20px;
   background-color: var(--dark-green-bgc-title);
 }
-
+.three-section {
+      width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
 .wrap__one {
   display: flex;
   flex-direction: column;
@@ -97,10 +100,13 @@ address {
 
 /**------div-4------*/
 
+.bottom-footer-text {
+  width: 100%;
+}
 .bottom-footer-text li {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: calc(14 / 12);
   letter-spacing: -0.02em;
   color: var(--footer-bottom-text);
@@ -120,7 +126,7 @@ address {
 @media screen and (min-width: 375px) {
   .footer__cont .container {
     padding: 0 20px 0 20px;
-    max-width: 375px;
+    min-width: 375px;
     margin: 0 auto;
   }
   .list-soc-icons {
@@ -135,8 +141,12 @@ address {
 @media screen and (min-width: 768px) {
   .footer__cont .container {
     padding: 0 32px 0 32px;
-    max-width: 768px;
+    min-width: 768px;
     margin: 0 auto;
+    justify-content: space-between;
+  }
+  .three-section {
+    flex-wrap: nowrap;
   }
   address {
     margin-bottom: 0;
@@ -163,11 +173,6 @@ address {
   .list-soc-icons {
     gap: 16px;
   }
-  .footer__cont .container {
-    max-width: 704px;
-    margin: 0 auto;
-    justify-content: space-between;
-  }
   .footer__cont {
     padding-top: 80px;
     padding-bottom: 20px;
@@ -176,6 +181,8 @@ address {
     display: flex;
     margin-top: 152px;
     gap: 149px;
+    width: 100%;
+    justify-content: space-between;
   }
   .bottom-footer-text li {
     font-size: 14px;
@@ -192,6 +199,8 @@ address {
   }
   .wrap__four {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
   }
   .list-soc-icons li {
     width: 44px;
@@ -200,15 +209,15 @@ address {
 }
 @media screen and (min-width: 1280px) {
   .footer__cont .container {
-    max-width: 1176px;
+    min-width: 1280px;
     padding: 0 52px 0 52px;
-
     margin: 0 auto;
     flex-wrap: wrap;
   }
   .bottom-footer-text {
     display: flex;
-    gap: 558px;
+    width: 100%;
+    justify-content: space-between;
   }
 
   .bottom-footer-text li:last-child {
@@ -216,5 +225,6 @@ address {
   }
   .wrap__four {
     display: flex;
+    width: 1280px;
   }
 }

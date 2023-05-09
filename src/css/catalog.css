@@ -1,6 +1,3 @@
-.catalog {
-  background-color: var(--lite-white-catalog-bgc);
-}
 
 .catalog {
   padding-top: 80px;
@@ -70,7 +67,6 @@ height: 24px;
 position: absolute;
 top: 0;
 right: 0;
-stroke-opacity: 0.5;
 }
 
 .catalog-img-text {
