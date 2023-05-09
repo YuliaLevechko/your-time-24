@@ -150,7 +150,7 @@ stroke-opacity: 0.5;
 
 .backdrop {
   position: fixed;
-  width: 100%;
+  min-width: 1280px;
   height: 100%;
   top: 0;
   stroke: var(--white);
