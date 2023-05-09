@@ -213,6 +213,9 @@ stroke-opacity: 0.5;
   border-radius: 8px;
   margin-bottom: 18px;
 }
+.modal-input::placeholder {
+  padding: 12px 16px;
+}
 .input-svg {
 }
 .input-wrap-area {
