@@ -127,8 +127,8 @@ font-size: 40px;
     padding-top: 80px;
     padding-bottom: 80px;
     margin: 0 auto;
-   }
-   
+}
+
 .font-about{
     margin-right: 110px;
     white-space: nowrap;
@@ -144,15 +144,15 @@ font-size: 40px;
     margin-top: 40px;
     width: 892px;
     max-height: 500px;
-    float: right;
-       }
+    margin-left: auto;
+    }
 
-       .ff{
+.ff{
         width: 380px;
-       }
-       .about-text{
+    }
+.about-text{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
 }
