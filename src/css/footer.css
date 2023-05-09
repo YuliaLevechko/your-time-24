@@ -10,10 +10,10 @@
   background-color: var(--dark-green-bgc-title);
 }
 .three-section {
-      width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .wrap__one {
   display: flex;
@@ -54,6 +54,21 @@
   margin-bottom: 40px;
 }
 
+.wrap__two ul li:is(:hover, :focus) {
+  color: var(--footer-bottom-text);
+}
+.addr__footer:is(:hover, :focus) {
+  color: var(--footer-bottom-text);
+}
+.tel-footer:is(:hover, :focus) {
+  color: var(--footer-bottom-text);
+}
+.logo-footer {
+  stroke: var(--white);
+}
+.logo-footer:is(:hover, :focus) {
+  stroke: var(--footer-bottom-text);
+}
 address {
   max-width: 141px;
   margin-bottom: 40px;
