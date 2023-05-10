@@ -14,12 +14,19 @@
     align-items: center;
     padding: 29px 20px;
 }
-
+.header-logo-link{
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-logo-link:hover, .header-logo-link:focus {
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    padding: 5px 1px;
+}
 .logo-wrap {
     display: flex;
     align-items: center;
 }
-
 .logo {
     margin-left: 4px;
     font-size: 12px;
@@ -36,7 +43,6 @@
 .main-nav-menu {
     display: none;
 }
-
 .mobile-modal>.logo-wrap {
     margin-bottom: 200px;
 }
@@ -54,6 +60,13 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: var(--white);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-nav-link:hover, .mobile-nav-link:focus {
+            border: 1px solid var(--white);
+            border-radius: 8px;
+            padding: 5px 1px;
 }
 
 .contact-us {
@@ -138,15 +151,22 @@
         display: flex;
         gap: 40px;
     }
-
     .main-nav-link {
         display: flex;
         align-items: center;
-        height: 48px;
+        height: 30px;
         font-size: 9px;
         line-height: 1.33px;
         text-transform: uppercase;
         color: var(--white);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .main-nav-link:hover,
+    .main-nav-link:focus {
+        border: 1px solid var(--white);
+        border-radius: 8px;
+        padding: 5px 5px;
     }
 
     .contact-link {
@@ -155,13 +175,18 @@
         width: 159px;
         height: 48px;
         margin-left: auto;
-        padding: 18px 35px;
+        padding: 18px 34px;
         background-color: var(--dark-green-bgc-title);
         border: none;
         border-radius: 8px;
         font-size: 9px;
         line-height: 1.33;
         color: var(--white);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .contact-link:hover, .contact-link:focus {
+        border: 1px solid var(--white);
     }
 
     .mobile-menu-btn {

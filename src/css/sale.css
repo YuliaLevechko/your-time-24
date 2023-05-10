@@ -158,7 +158,6 @@
     }
 
     .sale-sections {
-        width: 768px;
         padding-left: 66px;
     }
 
@@ -200,7 +199,6 @@
     }
 
     .sale-sections {
-        width: 1280px;
         padding-left: 98px;
         flex-direction: row;
     }
