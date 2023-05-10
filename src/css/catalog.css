@@ -320,6 +320,7 @@ right: 0;
     width: 744px;
     height: 670px;
     padding: 40px 40px 40px 40px;
+    overflow: unset;
   }
 
   .flex-wrp {
