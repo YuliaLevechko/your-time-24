@@ -15,13 +15,14 @@
     padding: 29px 20px;
 }
 .header-logo-link{
+    border: 1px solid var(--black-bgc-text);
+    border-radius: 8px;
+    padding: 5px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-logo-link:hover, .header-logo-link:focus {
-    border: 1px solid var(--white);
-    border-radius: 8px;
-    padding: 5px 1px;
+    border-color: var(--white);
 }
 .logo-wrap {
     display: flex;
@@ -60,13 +61,14 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: var(--white);
+    border: 1px solid var(--dark-green-bgc-title);
+    border-radius: 8px;
+    padding: 5px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-nav-link:hover, .mobile-nav-link:focus {
-            border: 1px solid var(--white);
-            border-radius: 8px;
-            padding: 5px 1px;
+    border-color: var(--white);
 }
 
 .contact-us {
@@ -159,14 +161,15 @@
         line-height: 1.33px;
         text-transform: uppercase;
         color: var(--white);
+        border: 1px solid var(--black-bgc-text);
+        border-radius: 8px;
+        padding: 5px 1px;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     .main-nav-link:hover,
     .main-nav-link:focus {
-        border: 1px solid var(--white);
-        border-radius: 8px;
-        padding: 5px 5px;
+        border-color: var(--white);
     }
 
     .contact-link {
@@ -177,7 +180,7 @@
         margin-left: auto;
         padding: 18px 34px;
         background-color: var(--dark-green-bgc-title);
-        border: none;
+        border: 1px solid var(--black-bgc-text);
         border-radius: 8px;
         font-size: 9px;
         line-height: 1.33;
@@ -186,7 +189,7 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     .contact-link:hover, .contact-link:focus {
-        border: 1px solid var(--white);
+        border-color: var(--white);
     }
 
     .mobile-menu-btn {
